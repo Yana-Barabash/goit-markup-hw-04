@@ -118,6 +118,7 @@ a {
 .wrap-nav-all {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .address {
   display: flex;
@@ -322,7 +323,7 @@ a {
   text-transform: uppercase;
   line-height: 1.17;
   color: #f4f4fd;
-  margin-bottom: 16px;
+
   display: inline-block;
 }
 

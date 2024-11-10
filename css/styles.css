@@ -127,11 +127,11 @@ a {
   display: flex;
   align-items: center;
 }
-.link-nav-header {
+.current {
   position: relative;
   color: #404bbf;
 }
-.link-nav-header::after {
+.current::after {
   content: '';
   width: 100%;
   position: absolute;
@@ -321,7 +321,7 @@ a {
   fill: #f4f4fd;
 }
 .link-network-team:hover,
-:focus {
+.link-network-team:focus {
   background-color: #404bbf;
 }
 
@@ -471,7 +471,7 @@ a {
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
-:focus {
+.footer-link:focus {
   background-color: #31d0aa;
 }
 .footer-box {
@@ -481,4 +481,9 @@ a {
 }
 .svg-bottom {
   fill: #f4f4fd;
+}
+.logo-footer-box {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }

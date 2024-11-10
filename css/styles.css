@@ -267,12 +267,13 @@ a {
   letter-spacing: 0.02em;
 
   color: #434455;
+  margin-bottom: 8px;
 }
 .wrap-team-list {
   display: flex;
   gap: 24px;
 }
-.name-posotion {
+.name-position {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
@@ -285,13 +286,13 @@ a {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
 }
 
 .link-network-team {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -305,13 +306,7 @@ a {
 :focus {
   background-color: #404bbf;
 }
-.network-links-team {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 8px;
-  padding-bottom: 30px;
-}
+
 /* ---------- Port section--------- */
 .port-section {
   background: #ffffff;

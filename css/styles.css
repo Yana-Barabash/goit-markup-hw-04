@@ -297,12 +297,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-team {
   fill: #f4f4fd;
 }
-.link-network-team:hover,
-:focus {
+.link-network-team:hover {
+  background-color: #404bbf;
+}
+.link-network-team:focus {
   background-color: #404bbf;
 }
 
